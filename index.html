@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>App Academy DOM API Tic-Tac-Toe Project</title>
   <link rel="stylesheet" href="./site.css">
 </head>
+
 <body>
   <div id="game">
     <h1 class="announcement" id="game-status"></h1>
+    <!-- <img src="\week4\tic-tac-toe-game\dom-api-tic-tac-toe\player-x.svg">
+    <img src="\week4\tic-tac-toe-game\dom-api-tic-tac-toe\player-o.svg"> -->
+
 
     <div id="tic-tac-toe-board">
       <div id="square-0" class="square row-1 col-1"></div>
@@ -23,11 +28,12 @@
     </div>
 
     <div class="actions">
-      <button>New Game</button>
+      <button id="new-game">New Game</button>
       <div class="spacer"></div>
-      <button>Give Up</button>
+      <button id="give-up">Give Up</button>
     </div>
   </div>
   <script src="./tic-tac-toe.js"></script>
 </body>
+
 </html>
